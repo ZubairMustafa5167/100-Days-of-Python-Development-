@@ -2,6 +2,9 @@
 #Welcome to Treasure Island.
 #User Enter his/her Path
 path=input("Enter your Path left or Right:")
+if path == "left":path=input("Enter your Path left or Right:")
+if path == "left":
+    path=input("Enter your Path left or Right:")
 if path == "left":
     #if path is left then move further otherwise fall
     choose=input(" Choose swim or wait :")
@@ -25,5 +28,3 @@ if path == "left":
         
 else :
     print("Fall into a hole.Game Over")
-
-path=input("Enter your Path left or Right:")
